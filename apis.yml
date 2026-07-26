@@ -1,21 +1,54 @@
 aid: element-ai
-name: Element Ai
-description: Element Ai is a company surfaced as a portfolio company of 500-global, dcvc and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/element-ai.png
+name: Element AI
+description: >-
+  Element AI was a Montreal, Quebec-based artificial intelligence company founded in 2016 by
+  Jean-Francois Gagne, Yoshua Bengio, Nicolas Chapados, Philippe Beaudoin, Anne Martel, and
+  Jean-Sebastien Cournoyer. It operated as an AI systems integrator and professional-services
+  firm with the mission of putting advanced AI capabilities - natural language processing,
+  computer vision, document intelligence, and conversational AI - in reach of traditional
+  enterprises. After raising roughly US$102M plus Canadian government funding and reaching an
+  estimated US$600-700M valuation in 2019, the company ran short of runway and was acquired by
+  ServiceNow (announced November 30, 2020; closed January 8, 2021 for approximately US$230M).
+  Its research group became ServiceNow Research and its former domain now redirects there. The
+  company no longer operates independently and publishes no standalone public API, developer
+  portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/element-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-status-detail: Acquired by ServiceNow, closed 2021-01-08; now ServiceNow Research. No independent API surface.
+x-acquired-by: servicenow
+x-acquired-date: '2021-01-08'
 x-backed-by:
 - 500-global
 - dcvc
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Natural Language Processing
+- Computer Vision
+- Enterprise AI
+- Montreal
+- Acquired
+- ServiceNow
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +57,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://elementai.com
+  url: https://www.servicenow.com/research/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
