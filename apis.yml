@@ -53,9 +53,9 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
-- Computer-Vision
+- Computer Vision
 - Enterprise AI
 - Montreal
 - Acquired
@@ -70,6 +70,8 @@ tags_raw:
 - Montreal
 - Acquired
 - ServiceNow
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
